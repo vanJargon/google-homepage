@@ -1,2 +1,1 @@
-Project Title: Google Home Page |
-Project HTML/CSS from The Odin Project. 
+Project HTML/CSS in The Odin Project (theodinproject.com).
