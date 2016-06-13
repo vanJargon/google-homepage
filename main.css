@@ -12,14 +12,11 @@ body {
 
 .bar li a{
 	text-decoration:none;
+	color:#585858;
 }
 
 .bar li a:hover{
 	text-decoration: underline;
-}
-
-.bar li a:visited{
-	color:#585858;
 }
 
 .nav {
@@ -56,6 +53,7 @@ body {
 
 #sign_in:hover{
 	text-decoration: none;
+	box-shadow: 0 1px #E2E2E2;
 }
 
 .container {
@@ -70,6 +68,10 @@ body {
 	margin:0 2px;
 }
 
+.container a:hover{
+	text-decoration: underline;
+}
+
 .container p{
 	margin:-4px;
 }
@@ -80,7 +82,7 @@ input[type=search] {
 	width:605px;
 	border-radius:0;
 	opacity:0.5;
-	font-size: 20px;
+	font-size: 18px;
 	color:#000;
 	-webkit-appearance:none;
 }
@@ -116,12 +118,15 @@ input[type=submit]:hover{
 
 footer {
 	border:1px solid #DCDCDC;
-	position:relative;
-	top:213px;
+	width:100%;
+	position:absolute;
+	left: 0;
+	bottom:0;
+	overflow:hidden;
 	background-color: #E8E9E8;
-	padding-top:13px;
-	padding-bottom: 13px;
+	padding:13px 0;
 	opacity:0.8;
+	margin:0;
 }
 
 footer ul{
