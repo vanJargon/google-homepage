@@ -1,1 +1,2 @@
-Project HTML/CSS in The Odin Project (theodinproject.com).
+# Google Homepage
+A mockup of Google's home page.
