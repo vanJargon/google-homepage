@@ -81,14 +81,17 @@ input[type=search] {
 	height:38px;
 	width:605px;
 	border-radius:0;
-	opacity:0.5;
 	font-size: 18px;
 	color:#000;
 	-webkit-appearance:none;
 }
 
 input[type=search]:hover {
-	opacity:1.0;
+	border: 1.5px solid #BABABA;
+}
+
+input[type=search]:focus {
+	outline:none;
 }
 
 input[type=submit] {
